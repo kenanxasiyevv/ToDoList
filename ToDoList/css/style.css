@@ -49,9 +49,9 @@ button:hover {
     border: 1px solid black;
 }
 
-h3 {
+span {
     font-weight: 200;
-    font-size: 40px;
+    font-size: 25px;
     color: black;
     margin-left: 20px;
     max-width: 300px;
@@ -65,8 +65,11 @@ h3 {
     margin: 15px;
     border: 1px solid gray;
     align-items: center;
+    align-content: center;
     background-color: aqua;
     overflow-x: hidden;
+    width: 100%;
+    height: auto;
 }
 
 .task button {
@@ -83,4 +86,12 @@ h3 {
     justify-content: center;
     margin-bottom: 10px;
 
+}
+
+.alert{
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    width: 40%;
+    display: block;
 }
